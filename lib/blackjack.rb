@@ -56,9 +56,8 @@ end
 def runner
   # code runner here
   welcome  
-  $card_total = initial_round
-  while $card_ < 21
-    hit?(card_total)
+  initial_round
+  until hit?(initial_round) < 21
     display_card_total(card_total)
   end
   end_game(card_total)
