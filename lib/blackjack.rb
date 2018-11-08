@@ -20,7 +20,7 @@ end
 
 def get_user_input
   # code #get_user_input here
-  gets.chomp
+  gets.strip.chomp
 end
 
 def end_game(number)
@@ -48,7 +48,7 @@ end
 
 def invalid_command
   # code invalid_command here
-  puts ""
+  puts "invalid"
 end
 
 #####################################################
