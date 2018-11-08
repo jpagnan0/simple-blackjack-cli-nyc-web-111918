@@ -30,7 +30,6 @@ end
 
 def initial_round
   # code #initial_round here
-  
   card_total = deal_card+deal_card
   display_card_total(card_total)
   card_total
@@ -57,8 +56,8 @@ end
 def runner
   # code runner here
   welcome  
-  initial_round
-  while initial_round < 21
+  $card_total = initial_round
+  while $card_ < 21
     hit?(card_total)
     display_card_total(card_total)
   end
