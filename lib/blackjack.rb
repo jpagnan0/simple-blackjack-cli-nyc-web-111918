@@ -59,6 +59,6 @@ def runner
   until hit?(initial_round) > 21 do
     display_card_total(hit?(initial_round))
   end
-  end_game(hit?(initial_round)
+  end_game(hit?(initial_round))
 end
     
