@@ -39,6 +39,7 @@ end
 
 def hit?
   # code hit? here
+  until get 
 end
 
 def invalid_command
